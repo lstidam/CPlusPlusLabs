@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="526.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.SchoolFormController">
+   <children>
+      <Label layoutX="21.0" layoutY="14.0" text="Grade Level:" />
+      <TextField fx:id="gpa_field" layoutX="21.0" layoutY="184.0" />
+      <Label layoutX="21.0" layoutY="90.0" text="Major:" />
+      <TextField fx:id="major_field" layoutX="21.0" layoutY="117.0" />
+      <Label layoutX="20.0" layoutY="159.0" text="GPA" />
+      <Button fx:id="back_button" layoutX="17.0" layoutY="232.0" mnemonicParsing="false" onAction="#backClicked" text="Back" />
+      <Button fx:id="submit_button" layoutX="83.0" layoutY="232.0" mnemonicParsing="false" onAction="#submitClicked" text="Submit" />
+      <ComboBox fx:id="grade_box" layoutX="19.0" layoutY="32.0" prefWidth="150.0" />
+   </children>
+</Pane>
